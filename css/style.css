@@ -1,0 +1,80 @@
+@media only screen and (min-width: 500px) {
+div#top{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+div#logo{
+    width: 350px;
+    height: 80px;
+    margin-top: 50px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+div#contato{
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+    float: right;
+}
+
+p {
+    font-family: Verdana;
+}
+
+div#menu{
+    background-color:rgb(83, 216, 83);
+    width: 1200px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+a{
+    color: black;
+    font-family: Verdana;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: yellow;
+}
+
+div#conteudo{
+    width: 1200px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+img#capa{
+    width: 1200px;
+    height: 600px;
+    margin: 1px auto;
+}
+img#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+img#logo2{
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+}
+body{
+    background-color: white;
+}
+p{
+    text-align: justify;
+    font-family: Verdana;
+    color: black;
+    font-size: 15px;
+}
+}

@@ -1,0 +1,59 @@
+#post{
+    margin:auto;
+    max-width:500px;
+}
+#post-message{
+    width: 100%;
+    padding: 0.5rem;
+    height: 70px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    font-family: Arial;
+    box-sizing: border-box;
+
+}
+#post-send-button{
+    padding: 0.3rem 1rem;
+    background: #e25433;
+    border: 1px solid #ff4400;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#post-send-button:hover{
+    cursor: pointer;
+}
+#post-send-button:disabled{
+    background: #f59782;
+    border: 1px solid #ff7c4d;
+}
+
+#content{
+    margin:auto;
+    max-width:900px;
+    border: 2px solid lightgrey;
+    border-top:none;
+    border-bottom:none;
+    padding:1rem;
+}
+
+#content ul{
+    list-style-type: none;
+    margin-block-start: 0;
+    margin: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+}
+#content li{
+    padding: 0.5rem;
+    background: #f9f9f9;
+    border-left: 2px solid coral;
+    border-bottom: 1px dotted darkgray;
+}
+
+#content li a {
+	float:right;
+    color: blue;
+}
+body{
+    font-family: Arial;
+}
